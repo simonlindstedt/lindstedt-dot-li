@@ -6,7 +6,6 @@ const Projects = () => {
   return (
     <ProjectSection>
       {projectsList.map((project, index) => {
-        console.log(project);
         return (
           <Project
             key={index}
