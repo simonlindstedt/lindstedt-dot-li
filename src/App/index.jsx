@@ -6,6 +6,7 @@ const App = () => {
   return (
     <Layout>
       <Header />
+      <Projects />
     </Layout>
   );
 };
