@@ -33,6 +33,7 @@ export const StyledSection = styled.section`
     button {
       transition: transform 0.2s ease-in-out;
       cursor: pointer;
+      font-weight: 700;
       background-color: white;
       color: black;
       border: none;
