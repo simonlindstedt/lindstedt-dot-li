@@ -1,7 +1,7 @@
 export default [
   {
     title: "GOlf",
-    description: "Like pokemon GO, but GOlf",
+    description: "Golfing game built using pixi.js and matter.js",
     github: "https://github.com/simonlindstedt/GOlf",
     color: "cornflowerblue",
   },
