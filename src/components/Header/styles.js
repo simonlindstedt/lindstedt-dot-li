@@ -20,6 +20,9 @@ export const StyledHeader = styled.header`
     &:hover {
       transform: scale(1.1);
     }
+    &:active {
+      transform: scale(1);
+    }
     img {
       animation: rotate 60s linear 0s infinite normal both;
       width: 6em;
