@@ -20,7 +20,7 @@ const About = () => {
         things.
         <br />
         This site was built using mainly React, source code can be found{" "}
-        <a href="">here.</a>
+        <a href="https://github.com/simonlindstedt/lindstedt-dot-li">here.</a>
       </p>
       <a href="mailto:simon.lindstedt@gmail.com">
         <button>Contact me</button>
