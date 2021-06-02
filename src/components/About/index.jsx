@@ -2,6 +2,7 @@ import { StyledSection } from "./styles";
 import large from "../../assets/me.jpg";
 import medium from "../../assets/me@0.75x.jpg";
 import small from "../../assets/me@0.5x.jpg";
+import cv from "../../assets/cv.pdf";
 const About = () => {
   return (
     <StyledSection>
@@ -22,9 +23,14 @@ const About = () => {
         This site was built using mainly React, source code can be found{" "}
         <a href="https://github.com/simonlindstedt/lindstedt-dot-li">here.</a>
       </p>
-      <a href="mailto:simon.lindstedt@gmail.com">
-        <button>Contact me</button>
-      </a>
+      <div>
+        <a href="mailto:simon.lindstedt@gmail.com">
+          <button>Contact me</button>
+        </a>
+        <a href={cv}>
+          <button>CV</button>
+        </a>
+      </div>
     </StyledSection>
   );
 };

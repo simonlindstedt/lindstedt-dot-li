@@ -36,8 +36,12 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
-        type: "asset",
+        test: /\.(png|jpe?g|gif|svg|pdf)$/,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
       },
       {
         test: /\.jsx?$/,
