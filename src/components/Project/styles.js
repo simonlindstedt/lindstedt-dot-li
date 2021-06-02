@@ -21,7 +21,7 @@ export const StyledLink = styled.a`
   text-decoration: none;
   color: white;
   font-weight: 700;
-  padding: 24px;
+  padding: 0.3em;
   border-radius: 8px;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s 0s ease-in-out, box-shadow 0.2s 0s ease-in-out;

@@ -15,7 +15,7 @@ export const StyledSection = styled.section`
     font-size: 6em;
   }
   p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 1.5em;
     color: white;
   }
@@ -39,6 +39,7 @@ export const StyledSection = styled.section`
       border: none;
       padding: 8px;
       border-radius: 4px;
+      margin: 4px;
       &:hover {
         transform: scale(1.1);
       }
