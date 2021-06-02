@@ -7,7 +7,7 @@ export const ProjectDiv = styled.div`
   align-items: flex-start;
   min-width: 100vw;
   min-height: inherit;
-  padding: 32px;
+  padding: 1.5em;
   p {
     font-size: 4em;
     color: white;
