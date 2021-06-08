@@ -13,7 +13,7 @@ const Project = ({ title, github, desc, color, reference, tags }) => {
       </div>
       <StyledTags>
         {tags?.map((tag, index) => {
-          return <p key={index}>{tag}</p>;
+          return <li key={index}>{tag}</li>;
         })}
       </StyledTags>
     </ProjectDiv>

@@ -36,10 +36,12 @@ export const StyledLink = styled.a`
   }
 `;
 
-export const StyledTags = styled.div`
+export const StyledTags = styled.ul`
   display: flex;
-
-  p {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
     font-family: monospace;
     padding: 0px 1em 24px 0px;
     font-size: 2em;
