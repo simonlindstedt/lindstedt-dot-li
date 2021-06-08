@@ -19,11 +19,17 @@ export const StyledMenuButton = styled.button`
   width: 64px;
   height: 64px;
   margin: 16px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s 0s ease-in-out;
+  transition: transform 0.2s 0s ease-in-out,
+    background-color 0.2s 0s ease-in-out;
+  img {
+    width: 50%;
+    height: 50%;
+  }
   &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
     transform: scale(1.1);
   }
   &:active {

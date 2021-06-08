@@ -1,4 +1,6 @@
 import { StyledNavigatorDiv, StyledMenuButton } from "./styles";
+import menuOpen from "../../assets/menu-open.svg";
+import menuClose from "../../assets/menu-close.svg";
 import NavigationItem from "../NavigationItem";
 import React from "react";
 
@@ -10,9 +12,8 @@ const NavigationMenu = ({ items, refs }) => {
         onClick={() => {
           setOpen(!open);
         }}
-        className={open ? "open" : ""}
       >
-        {open ? "open" : "not open"}
+        <img src={open ? menuClose : menuOpen} />
       </StyledMenuButton>
       {refs.map((ref, index) => {
         return (

@@ -1,4 +1,4 @@
-import { ProjectSection, IndicatorDiv } from "./styles";
+import { ProjectSection } from "./styles";
 import Project from "../Project";
 import projectsList from "../../data/projects";
 import React from "react";

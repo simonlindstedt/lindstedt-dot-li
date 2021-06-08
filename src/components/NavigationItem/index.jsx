@@ -3,7 +3,7 @@ import React from "react";
 
 const NavigationButton = ({ isOpen, index, color, text, handleClick }) => {
   const [mouseOver, setMouseOver] = React.useState(false);
-  const activePosition = `${64 * (index + 1) * -1}px`;
+  const activePosition = `${80 * (index + 1) * -1}px`;
   return (
     <StyledNavButton
       onMouseEnter={() => setMouseOver(true)}
@@ -14,6 +14,7 @@ const NavigationButton = ({ isOpen, index, color, text, handleClick }) => {
         transform: `translate(0px, ${isOpen ? activePosition : "0px"}) scale(${
           mouseOver ? "1.2" : "1"
         })`,
+        opacity: isOpen ? "1" : "0",
       }}
     >
       {text}
