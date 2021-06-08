@@ -15,6 +15,7 @@ export const ProjectSection = styled.section`
 export const IndicatorDiv = styled.div`
   position: sticky;
   bottom: 0;
+  padding: 16px 8px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
