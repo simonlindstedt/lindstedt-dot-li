@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   min-width: 100vw;
   min-height: inherit;
@@ -17,6 +17,7 @@ export const ProjectDiv = styled.div`
 
 export const StyledLink = styled.a`
   margin: 0;
+  width: fit-content;
   font-size: 6em;
   text-decoration: none;
   color: white;
@@ -32,5 +33,15 @@ export const StyledLink = styled.a`
   &:active {
     transform: scale(1);
     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+`;
+
+export const StyledTags = styled.div`
+  display: flex;
+
+  p {
+    font-family: monospace;
+    padding: 0px 1em 24px 0px;
+    font-size: 2em;
   }
 `;

@@ -17,6 +17,7 @@ const Projects = () => {
             reference={projectRef}
             key={index}
             title={project.title}
+            tags={project.tags}
             desc={project.description}
             github={project.github}
             color={project.color}
