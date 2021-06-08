@@ -2,6 +2,7 @@ import { ProjectSection, IndicatorDiv } from "./styles";
 import Project from "../Project";
 import projectsList from "../../data/projects";
 import React from "react";
+import NavigationMenu from "../NavigationMenu";
 
 const Projects = () => {
   const projectRefs = [];
@@ -24,23 +25,10 @@ const Projects = () => {
           />
         );
       })}
-      <IndicatorDiv>
-        {projectRefs.map((ref, index) => {
-          return (
-            <button
-              key={index}
-              onClick={() => {
-                ref.current.scrollIntoView({
-                  behavior: "smooth",
-                });
-              }}
-              style={{ backgroundColor: projectsList[index].color }}
-            >
-              {index + 1}
-            </button>
-          );
-        })}
-      </IndicatorDiv>
+      <NavigationMenu
+        items={projectsList.reverse()}
+        refs={projectRefs.reverse()}
+      />
     </ProjectSection>
   );
 };
