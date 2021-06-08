@@ -17,10 +17,9 @@ const About = () => {
       />
       <p>
         Currently a full-stack web development student @YRGO <br />
-        with a burning passion for developing both functional and useless
-        things.
+        with a passion for developing both functional and useless things.
         <br />
-        This site was built using mainly React, source code can be found{" "}
+        This site was built using React, source code can be found{" "}
         <a href="https://github.com/simonlindstedt/lindstedt-dot-li">here.</a>
       </p>
       <div>
