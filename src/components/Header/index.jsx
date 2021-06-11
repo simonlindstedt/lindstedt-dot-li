@@ -1,5 +1,6 @@
 import { StyledHeader } from "./styles";
 import github from "../../assets/github-icon-white.svg";
+import Graphics from "../Graphics";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
       <a href="https://github.com/simonlindstedt">
         <img src={github} alt="github-logo" />
       </a>
+      <Graphics />
     </StyledHeader>
   );
 };
